@@ -36,7 +36,7 @@ export default class Vector2d {
     this.y=vector.y;
   }
   clone(){
-    return new Vector(this.x,this.y);
+    return new Vector2d(this.x,this.y);
   }
 
   static distance(v1,v2){
